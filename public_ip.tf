@@ -7,3 +7,7 @@ resource "azurerm_public_ip" "rg-1" {
     environment = "TestTF"
  }
 }
+resource "azurerm_resource_group" "rg-1" {
+  name = "finalrg"
+  location = "eastus"
+}
