@@ -4,6 +4,6 @@ resource "azurerm_public_ip" "rg-1" {
   location = azurerm_resource_group.rg-1.location
   allocation_method = "Static"
   tags = {
-    environment = "Test"
+    environment = "TestTF"
  }
 }
